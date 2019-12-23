@@ -1,15 +1,13 @@
 
+
+//Load page content graphs
 function loadPage(id) {
   $(document).ready(function(){	
 		$("#page").load("componentsPages/"+id+".html");	
 });
 }
 
-
-
-
-
-//Load footer and default graph
+//Load footer content 
 function loadFooter(){
 
 $(document).ready(function(){
@@ -22,7 +20,6 @@ $(document).ready(function(){
 
 });
 }
-
 
 // Get the Sidebar
 var mySidebar = document.getElementById("mySidebar");
@@ -46,8 +43,6 @@ function w3_close() {
     mySidebar.style.display = "none";
     overlayBg.style.display = "none";
 }
-
-
 
 var addclass = 'color';
 
