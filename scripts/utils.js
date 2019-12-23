@@ -1,25 +1,12 @@
 
 
-//Load page content graphs
-function loadPage(id) {
+//page loader
+function loadPage(div,id) {
   $(document).ready(function(){	
-		$("#page").load("componentsPages/"+id+".html");	
+		$(div).load(id);	
 });
 }
 
-//Load footer content 
-function loadFooter(){
-
-$(document).ready(function(){
-   
-   $('#contact').load("utilPages/contact.html");
-   
-   $('#footerContent').load("utilPages/footer.html");
-   
-    $('#page').load("componentsPages/ottda.html");
-
-});
-}
 
 // Get the Sidebar
 var mySidebar = document.getElementById("mySidebar");

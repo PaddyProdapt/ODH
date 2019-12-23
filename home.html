@@ -25,7 +25,7 @@
 		.color{background-color: #add8e6;}
 	</style>
 	
-	<body class="w3-light-grey" onload="loadFooter();">
+	<body class="w3-light-grey" onload="loadPage('#contact','utilPages/contact.html');loadPage('#footerContent','utilPages/footer.html');loadPage('#page','componentsPages/ottda.html');">
 <!-- Top container -->
 		<div class="w3-bar w3-top w3-white w3-large  w3-row-padding  w3-card" style="z-index:4">
 			<button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-blue" onclick="w3_open();"><i class="fa fa-bars"></i>  Menu</button>
@@ -61,14 +61,14 @@
 			<br>
 			<div class="w3-bar-block" data-step="3" data-intro="Components navigator for components wise drill down">
 				<a class="w3-bar-item  w3-padding " ><strong>CDN</strong></a>
-				<a  onclick="loadPage('ottda')" class="w3-bar-item w3-button w3-padding divs"  >&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-server fa-fw"></i> OTTDA</a>
-				<a  onclick="loadPage('qamda')" class="w3-bar-item w3-button w3-padding divs" >&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-server fa-fw"></i> QAMDA</a>
-				<a  onclick="loadPage('ida')" class="w3-bar-item w3-button w3-padding divs" >&nbsp;&nbsp;&nbsp;&nbsp;  <i class="fa fa-server fa-fw"></i> iDA</a>
-				<a onclick="loadPage('halo')" class="w3-bar-item w3-button w3-padding divs" ><strong>HALO</strong></a> 
+				<a  onclick="loadPage('#page','componentsPages/ottda.html')" class="w3-bar-item w3-button w3-padding divs"  >&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-server fa-fw"></i> OTTDA</a>
+				<a  onclick="loadPage('#page','componentsPages/qamda.html')" class="w3-bar-item w3-button w3-padding divs" >&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-server fa-fw"></i> QAMDA</a>
+				<a  onclick="loadPage('#page','componentsPages/ida.html')" class="w3-bar-item w3-button w3-padding divs" >&nbsp;&nbsp;&nbsp;&nbsp;  <i class="fa fa-server fa-fw"></i> iDA</a>
+				<a onclick="loadPage('#page','componentsPages/halo.html')" class="w3-bar-item w3-button w3-padding divs" ><strong>HALO</strong></a> 
 				<a class="w3-bar-item  w3-padding " ><strong>VSPP</strong></a>	
-				<a  onclick="loadPage('legacyVspp')" class="w3-bar-item w3-button w3-padding divs"  >&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-database fa-fw"></i> Legacy</a>
-				<a  onclick="loadPage('eosVspp')" class="w3-bar-item w3-button w3-padding divs" >&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-database fa-fw"></i> EOS</a>
-				<a onclick="loadPage('videopump')" class="w3-bar-item w3-button w3-padding divs" ><strong>Video Pump</strong></a>
+				<a  onclick="loadPage('#page','componentsPages/legacyVspp.html')" class="w3-bar-item w3-button w3-padding divs"  >&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-database fa-fw"></i> Legacy</a>
+				<a  onclick="loadPage('#page','componentsPages/eosVspp.html')" class="w3-bar-item w3-button w3-padding divs" >&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-database fa-fw"></i> EOS</a>
+				<a onclick="loadPage('#page','componentsPages/videopump.html')" class="w3-bar-item w3-button w3-padding divs" ><strong>Video Pump</strong></a>
 			</div>
 		</nav>
 <!-- Overlay effect when opening sidebar on small screens -->
