@@ -21,14 +21,16 @@ function w3_open(div1,div2) {
     }
 }
 
-
-
-var addclass = 'color';
-
-var $cols = $('.divs').click(function(e) {
+//Sidebar menu highlighter
+function highlightMenu(color,className){
+var addclass = color;
+var $cols = $(className).click(function(e) {
     $cols.removeClass(addclass);
     $(this).addClass(addclass);
 });
+}
+
+
 
 
 
