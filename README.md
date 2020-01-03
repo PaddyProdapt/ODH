@@ -1,3 +1,3 @@
 # ODH-CM Dashboard
 
-To use this Dashboard navigate to : capmgt.tk/home
+To use this Dashboard navigate to : www.capmgt.tk/home
